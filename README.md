@@ -38,7 +38,7 @@ Dự án được triển khai theo một quy trình khép kín từ trích xu�
 
 ## 5. Trực quan hóa dữ liệu (Data Visualization)
 
-📊 **[Xem chi tiết báo cáo Power BI tại đây](Customer_360_Analytics.pbix)**
+📊 **[Xem chi tiết báo cáo Power BI tại đây](Customer_360_Behavioral_Analytics_v1.pbix)**
 
 ### Tổng quan hành vi (Tháng 4)
 * **Quy mô người dùng**: Tổng cộng có **1,920,546 hợp đồng** được phân tích.
