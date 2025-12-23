@@ -9,7 +9,7 @@ ETL xử lý Telecom Logs (JSON/Parquet) bằng PySpark & OpenAI tập trung và
 
 ## 2. Quy trình thực hiện (Pipeline Process)
 
-![Overall Pipeline Flow](image_for_readme/overall_pipeline_flow.jpg)
+![Overall Pipeline Flow](Image_for_readme/overall_pipeline_flow.jpg)
 
 [Image of a data engineering pipeline flowchart showing raw data extraction from JSON and Parquet files, processing with PySpark, AI-driven keyword classification via OpenAI API, and final storage in a MySQL database for Power BI visualization]
 
@@ -32,7 +32,7 @@ Dự án được chia thành hai luồng xử lý độc lập trước khi t�
 * **[Movie_Classifier.py](Movie_Classifier.py)**: Module AI sử dụng OpenAI để phân loại thể loại nội dung.
 * **[Code_ETL_Log_Search_Most_Searched_Categories.py](Code_ETL_Log_Search_Most_Searched_Categories.py)**: Phân tích xu hướng và chuyển dịch hành vi giữa các tháng.
 
-![Project Structure](image_for_readme/github_repo_structure.jpg)
+![Project Structure](Image_for_readme/github_repo_structure.jpg)
 
 ## 4. Trực quan hóa dữ liệu (Data Visualization)
 
@@ -43,14 +43,14 @@ Dự án được chia thành hai luồng xử lý độc lập trước khi t�
 * **Mức độ hoạt động**: **71.64%** người dùng thuộc nhóm **High Active**, trong khi **28.36%** thuộc nhóm **Low Active**.
 * **Nội dung phổ biến**: "Truyền Hình" là danh mục có lượng tiêu thụ lớn nhất.
 
-![Dashboard Content Overview](image_for_readme/dashboard_content_overview.jpg)
+![Dashboard Content Overview](Image_for_readme/dashboard_content_overview.jpg)
 
 ### Phân tích tìm kiếm & Xu hướng (Tháng 6 - Tháng 7)
 * **Sở thích tìm kiếm**: Thể loại **Drama** dẫn đầu lượng tìm kiếm trong cả hai tháng.
 * **Biến động hành vi**: Gần **69.13%** người dùng đã thay đổi sở thích tìm kiếm chủ đạo khi bước sang tháng mới (`Changed behavior`).
 * **Các luồng chuyển dịch chính**: Người dùng thường xuyên thay đổi giữa **Drama - C Drama**, **Drama - Romance** hoặc **Romance - Drama**.
 
-![Dashboard Search Transitions](image_for_readme/dashboard_search_behavior.jpg)
+![Dashboard Search Transitions](Image_for_readme/dashboard_search_behavior.jpg)
 
 ## 5. Công nghệ sử dụng (Tech Stack)
 
